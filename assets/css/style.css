@@ -142,7 +142,7 @@ button:active {
 .header {
     position: absolute;
     top: 20px;
-    left: 18.75%;
+    left: 83.96%;
 }
 
 .footer {
@@ -198,4 +198,20 @@ button:active {
     text-overflow: ellipsis;
     white-space: nowrap;
     display: none;
+}
+
+.text {
+    position: absolute;
+    left: 81.25%;
+    bottom: -10%;
+    font-size: 16px;
+    color: #fff;
+    /* color: #007440; */
+}
+
+@media screen and (max-width: 1000px) {
+    .text {
+        position: static;
+        line-height: 40px;
+    }
 }

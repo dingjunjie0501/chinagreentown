@@ -22,8 +22,7 @@ jQuery(function ($) {
         slides: [    // Slideshow Images
             { image: 'assets/img/backgrounds/1.jpg' },
             { image: 'assets/img/backgrounds/2.jpg' },
-            { image: 'assets/img/backgrounds/3.jpg' },
-            { image: 'assets/img/backgrounds/4.jpg' }
+            { image: 'assets/img/backgrounds/3.jpg' }
         ]
 
     });
